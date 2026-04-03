@@ -18,9 +18,20 @@ A lightweight desktop MongoDB GUI client built with Python and Qt6. Runs on Linu
 - CLI for scripting and automation (`hibbert-cli`)
 - MCP server for AI assistant integration (`hibbert-mcp`)
 
+---
+
+## Requirements
+
+- Python 3.10+
+- MongoDB 4.0+
+- Icons provided by [qtawesome](https://github.com/spyder-ide/qtawesome) (Material Design Icons)
+- [mcp](https://github.com/modelcontextprotocol/python-sdk) (optional, required for MCP server only)
+
+---
+
 ## Installation
 
-Download the latest release from the [Releases](../../releases/latest) page.
+> 📦 **[Download the latest release](https://github.com/d4m111/hibbert_through_the_frame/releases/latest)**
 
 ### Linux — Debian-based (Ubuntu, Debian, Mint...)
 
@@ -43,8 +54,6 @@ Run `hibbert-*-setup.exe` and follow the installer wizard.
 
 Open `hibbert-*.dmg`, drag **Hibbert** to the Applications folder.
 
----
-
 ### Run from source
 
 ```bash
@@ -53,14 +62,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 python -m hibbert
 ```
-
-## Requirements
-
-- Python 3.10+
-- MongoDB 4.0+
-- Icons provided by [qtawesome](https://github.com/spyder-ide/qtawesome) (Material Design Icons)
-- [mcp](https://github.com/modelcontextprotocol/python-sdk) (optional, required for MCP server only)
-
 ---
 
 ## CLI
