@@ -2,6 +2,8 @@
 
 A lightweight desktop MongoDB GUI client built with Python and Qt6. Runs on Linux, macOS and Windows.
 
+![Hibbert screenshot](docs/app-screenshot.png)
+
 ## Features
 
 - Connection manager with multiple saved connections
@@ -54,14 +56,6 @@ Run `hibbert-*-setup.exe` and follow the installer wizard.
 
 Open `hibbert-*.dmg`, drag **Hibbert** to the Applications folder.
 
-### Run from source
-
-```bash
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python -m hibbert
-```
 ---
 
 ## CLI
