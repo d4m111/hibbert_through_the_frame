@@ -38,10 +38,16 @@ A lightweight desktop MongoDB GUI client built with Python and Qt6. Runs on Linu
 ### Linux — Debian-based (Ubuntu, Debian, Mint...)
 
 ```bash
-sudo dpkg -i hibbert_*_amd64.deb
+sudo dpkg -i hibbert_*_linux-debian_amd64.deb
 ```
 
-### Linux — Universal (Fedora, Arch, any distro)
+### Linux — RPM-based (Fedora, RHEL, openSUSE...)
+
+```bash
+sudo rpm -i hibbert_*_linux-rpm_x86_64.rpm
+```
+
+### Linux — Universal (Arch, any distro)
 
 ```bash
 chmod +x hibbert-*.AppImage
