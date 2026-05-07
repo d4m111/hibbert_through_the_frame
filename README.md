@@ -7,7 +7,7 @@ A lightweight desktop MongoDB GUI client built with Python and Qt6. Runs on Linu
 ## Features
 
 - Connection manager with multiple saved connections
-- Database & collection tree browser
+- Database & collection tree browser with collection type indicators (standard, timeseries, view)
 - JSON query editor with syntax highlighting
 - Results viewer (Table & JSON views)
 - Multiple query tabs per connection
@@ -147,7 +147,7 @@ By default, the MCP server runs in **read-only mode**. Write and delete operatio
 | `list_connections` | List saved connections |
 | `connect` | Connect to a saved connection by name |
 | `list_databases` | List databases |
-| `list_collections` | List collections in a database |
+| `list_collections` | List collections in a database (includes collection type) |
 | `query` | Run find, aggregate, count, update, delete, etc. |
 | `get_indexes` | List indexes for a collection |
 | `collection_stats` | Get collection statistics |
