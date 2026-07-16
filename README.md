@@ -6,7 +6,7 @@ A lightweight desktop MongoDB GUI client built with Python and Qt6. Runs on Linu
 
 ## Features
 
-- Connection manager with multiple saved connections
+- Connection manager with multiple saved connections (passwords stored encrypted at rest)
 - Database & collection tree browser with collection type indicators (standard, timeseries, view)
 - JSON query editor with syntax highlighting
 - Results viewer (Table & JSON views)
