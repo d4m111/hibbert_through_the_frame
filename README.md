@@ -25,7 +25,7 @@ A lightweight desktop MongoDB GUI client built with Python and Qt6. Runs on Linu
 ## Requirements
 
 - Python 3.10+
-- MongoDB 4.0+
+- MongoDB 4.0+ (PyMongo is pinned to `<4.14`; newer PyMongo releases drop support for MongoDB 4.0 and 4.2)
 - Icons provided by [qtawesome](https://github.com/spyder-ide/qtawesome) (Material Design Icons)
 - [mcp](https://github.com/modelcontextprotocol/python-sdk) (optional, required for MCP server only)
 
